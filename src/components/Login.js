@@ -49,7 +49,7 @@ const Login = () => {
   if (!token) {
     return (
       <div>
-        <h1>Log In here</h1>
+        <h1 className="sign">Log In here</h1>
         <form onSubmit={handleSubmit} className="sign-up-form">
           <label htmlFor="username">Username</label>
           <input

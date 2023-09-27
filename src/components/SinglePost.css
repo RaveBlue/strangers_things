@@ -1,0 +1,15 @@
+.post-button button {
+  height: 35px;
+  color: black;
+  border-radius: 20px;
+  border: none;
+  background-color: #90b0e0;
+  margin-top: 20px;
+  color: #fff;
+  text-decoration: none;
+  align-items: center;
+}
+
+.post-button button:hover {
+  background-color: pink;
+}

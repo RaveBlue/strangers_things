@@ -64,14 +64,14 @@ const Posts = () => {
       <ul>
         {filteredPosts.map((post) => {
           return (
-            <li key={post._id} className="post-card">
+            <li key={Posts._id} className="post-card">
               <p>{post.title}</p>
               <p>{post.description}</p>
               <p>{post.price}</p>
               <p>{post.location}</p>
               <p>{post.willDeliver}</p>
               <p>{post.author.username}</p>
-              <Link to={`/posts/${post._id}`}>
+              <Link to={`/Posts/${Posts._id}`}>
                 <button className="btn">View Post</button>
               </Link>
             </li>

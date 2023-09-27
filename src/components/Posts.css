@@ -13,5 +13,17 @@
   margin: 20px 0;
   padding: 20px;
   border: 1px solid #282c34;
+  border-radius: 20px;
+  background-color: #c2e2fc;
+}
+.btn {
+  background-color: #728fc9;
+  border: none;
   border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+.btn:hover {
+  color: #728fc9;
+  background-color: white;
 }
