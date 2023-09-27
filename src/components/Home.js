@@ -1,5 +1,6 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
+import Login from "./Login";
 //import Posts from "./Posts";
 const Home = () => {
   return (
@@ -15,6 +16,8 @@ const Home = () => {
       >
         welcome to Stranger's things
       </h2>
+      <Link to="/Login" className="nav-link"></Link>
+      <Login />
     </div>
   );
 };
